@@ -70,6 +70,8 @@ public class Tests {
     	Navi.enterPassword(Excel.getCellData("Sheet1",15,2));
     	Navi.enterConPassword(Excel.getCellData("Sheet1",16,2));
         Navi.enterClickContinue();
+        
+        System.out.println("test 1");
     	
     }
 
